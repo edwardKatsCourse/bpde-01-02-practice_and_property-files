@@ -1,0 +1,36 @@
+1. create maven project
+2. add libraries:
+- commons io
+- jackson databind
+
+3. Create class Main with main method
+4. ALL SET:
+- save any string to the file
+- read and print this string from the file
+
+- use FileUtils (or FileRead/FileWriter)
+- create file using "new File("filename.txt");" class
+
+
+Remove ALL SET or comment out
+-------
+5. Create a class: User
+6. Create two fields: username: string, password: string
+7. Create:
+- constructors (default and full)
+- getters and setters
+- toString
+- equals and hash code (username)
+
+8. Using ObjectMapper - create a user and serialize it to the file: users.txt
+
+
+
+9. Read users from the file to Set<User>
+10. Print users and hide their password during the print (******)
+
+
+Stream API
+TypeReference
+
+Make sure you have at least two users with the same usernames
